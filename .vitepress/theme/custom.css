@@ -1,0 +1,175 @@
+/* Molley Theme Colors - Based on the app's Element Plus theme */
+:root {
+  /* Primary brand color - Calmer cyan */
+  --vp-c-brand-1: #019cca;
+  --vp-c-brand-2: #01b5eb;
+  --vp-c-brand-3: #007a9e;
+  --vp-c-brand-soft: rgba(1, 156, 202, 0.14);
+
+  /* Accent color - Complementary soft orange/pink */
+  --vp-c-accent: #f2206b;
+
+  /* Success - Softer teal-green */
+  --vp-c-green-1: #6bb172;
+  --vp-c-green-2: #7ec285;
+  --vp-c-green-3: #5a9960;
+  --vp-c-green-soft: rgba(107, 177, 114, 0.14);
+
+  /* Warning - Warm amber */
+  --vp-c-yellow-1: #fea807;
+  --vp-c-yellow-2: #feb82e;
+  --vp-c-yellow-3: #d98f06;
+  --vp-c-yellow-soft: rgba(254, 168, 7, 0.14);
+
+  /* Danger - Softer coral */
+  --vp-c-red-1: #f2206b;
+  --vp-c-red-2: #f54d8a;
+  --vp-c-red-3: #c91a57;
+  --vp-c-red-soft: rgba(242, 32, 107, 0.14);
+
+  /* Info - Relaxing purple */
+  --vp-c-purple-1: #a978c9;
+  --vp-c-purple-2: #bb93d6;
+  --vp-c-purple-3: #8e5fb3;
+  --vp-c-purple-soft: rgba(169, 120, 201, 0.14);
+
+  /* Background colors */
+  --vp-c-bg: #f0f7fa;
+  --vp-c-bg-soft: #e1f0f5;
+  --vp-c-bg-mute: #c9e0ea;
+  --vp-c-bg-alt: #f0f7fa;
+
+  /* Text colors */
+  --vp-c-text-1: #23323e;
+  --vp-c-text-2: #435768;
+  --vp-c-text-3: #657986;
+
+  /* Border colors */
+  --vp-c-border: #c9e0ea;
+  --vp-c-divider: #dae9f1;
+  --vp-c-gutter: #e1f0f5;
+
+  /* Button colors */
+  --vp-button-brand-border: transparent;
+  --vp-button-brand-text: #ffffff;
+  --vp-button-brand-bg: #019cca;
+  --vp-button-brand-hover-border: transparent;
+  --vp-button-brand-hover-text: #ffffff;
+  --vp-button-brand-hover-bg: #01b5eb;
+  --vp-button-brand-active-border: transparent;
+  --vp-button-brand-active-text: #ffffff;
+  --vp-button-brand-active-bg: #007a9e;
+
+  /* Alt button */
+  --vp-button-alt-border: #c9e0ea;
+  --vp-button-alt-text: #23323e;
+  --vp-button-alt-bg: #e1f0f5;
+  --vp-button-alt-hover-border: #019cca;
+  --vp-button-alt-hover-text: #019cca;
+  --vp-button-alt-hover-bg: #f0f7fa;
+
+  /* Home hero */
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: linear-gradient(135deg, #019cca 0%, #f2206b 100%);
+  --vp-home-hero-image-background-image: linear-gradient(135deg, rgba(1, 156, 202, 0.3) 0%, rgba(242, 32, 107, 0.3) 100%);
+  --vp-home-hero-image-filter: blur(44px);
+}
+
+/* Dark mode overrides */
+.dark {
+  --vp-c-bg: #1a2633;
+  --vp-c-bg-soft: #243342;
+  --vp-c-bg-mute: #2d3e4f;
+  --vp-c-bg-alt: #1a2633;
+
+  --vp-c-text-1: #e8f4f8;
+  --vp-c-text-2: #b8d4e0;
+  --vp-c-text-3: #8ab0c2;
+
+  --vp-c-border: #3d5266;
+  --vp-c-divider: #2d3e4f;
+  --vp-c-gutter: #243342;
+
+  --vp-button-alt-border: #3d5266;
+  --vp-button-alt-text: #e8f4f8;
+  --vp-button-alt-bg: #243342;
+  --vp-button-alt-hover-border: #019cca;
+  --vp-button-alt-hover-text: #019cca;
+  --vp-button-alt-hover-bg: #2d3e4f;
+}
+
+/* Custom styling for feature boxes */
+.VPFeature {
+  border: 1px solid var(--vp-c-border);
+  background: var(--vp-c-bg-soft);
+  transition: border-color 0.25s, background-color 0.25s;
+}
+
+.VPFeature:hover {
+  border-color: var(--vp-c-brand-1);
+  background: var(--vp-c-bg);
+}
+
+/* Sidebar styling */
+.VPSidebar {
+  background: var(--vp-c-bg-soft);
+}
+
+/* Navigation styling */
+.VPNavBar {
+  border-bottom: 1px solid var(--vp-c-border);
+}
+
+/* Custom badge styling */
+.tip {
+  border-color: var(--vp-c-brand-1);
+}
+
+.warning {
+  border-color: var(--vp-c-yellow-1);
+}
+
+.danger {
+  border-color: var(--vp-c-red-1);
+}
+
+/* Code block styling */
+.vp-code-group .tabs label {
+  color: var(--vp-c-text-2);
+}
+
+.vp-code-group .tabs label.active {
+  color: var(--vp-c-brand-1);
+}
+
+/* Custom callout boxes */
+.custom-block.tip {
+  background-color: var(--vp-c-brand-soft);
+  border-color: var(--vp-c-brand-1);
+}
+
+.custom-block.warning {
+  background-color: var(--vp-c-yellow-soft);
+  border-color: var(--vp-c-yellow-1);
+}
+
+.custom-block.danger {
+  background-color: var(--vp-c-red-soft);
+  border-color: var(--vp-c-red-1);
+}
+
+.custom-block.info {
+  background-color: var(--vp-c-purple-soft);
+  border-color: var(--vp-c-purple-1);
+}
+
+/* Logo styling */
+.VPNavBarTitle .logo {
+  height: 28px;
+  width: 28px;
+}
+
+/* Hero image */
+.VPHero .image-bg {
+  background: linear-gradient(135deg, rgba(1, 156, 202, 0.2) 0%, rgba(242, 32, 107, 0.2) 100%);
+}

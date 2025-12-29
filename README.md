@@ -1,6 +1,21 @@
 # Molley Documentation
 
-This repository hosts the Molley documentation site powered by VitePress and deployed via GitHub Pages.
+User documentation for Molley — your all-in-one platform for research, product development, and growth.
+
+## About This Documentation
+
+This documentation is designed for end users of Molley, including:
+
+- **Solo entrepreneurs** building their products
+- **Product managers** managing features and roadmaps
+- **Sales teams** tracking outreach and customers
+- **Research professionals** capturing and synthesizing insights
+
+## Documentation Structure
+
+- **Getting Started** — Quick start guide, company setup, projects
+- **Features** — Detailed guides for each Molley feature
+- **AI Assistant** — How to use Molley AI effectively
 
 ## Tech Stack
 
@@ -8,28 +23,32 @@ This repository hosts the Molley documentation site powered by VitePress and dep
 - **Runtime**: Node.js
 - **Deployment**: GitHub Pages (automated via GitHub Actions)
 
-## Local Development
+## Development
 
-Install dependencies:
+### Setup
+
 ```bash
 npm install
 ```
 
-Start the development server:
+### Development Server
+
+Start the development server on `http://localhost:5173`:
+
 ```bash
 npm run docs:dev
 ```
 
-Visit `http://localhost:5173` to preview changes.
+### Production Build
 
-## Build
+Build the documentation for production:
 
-Generate static files for production:
 ```bash
 npm run docs:build
 ```
 
 Preview the production build:
+
 ```bash
 npm run docs:preview
 ```
@@ -40,13 +59,23 @@ npm run docs:preview
 .
 ├── .vitepress/
 │   ├── config.mts          # VitePress configuration
-│   └── dist/               # Build output (generated)
-├── guide/
-│   ├── index.md            # Getting Started
-│   └── installation.md     # Installation guide
+│   └── theme/              # Custom theme (Molley colors)
+├── public/                 # Static assets (logo)
+├── guide/                  # Getting Started guides
+├── features/               # Feature documentation
+├── ai/                     # AI Assistant guides
 ├── index.md                # Home page
 └── package.json            # Dependencies and scripts
 ```
+
+## Theme
+
+The documentation uses Molley's brand colors:
+
+- **Primary**: `#019cca` (Cyan)
+- **Accent**: `#f2206b` (Pink/Coral)
+- **Success**: `#6bb172` (Green)
+- **Warning**: `#fea807` (Amber)
 
 ## Deployment
 
