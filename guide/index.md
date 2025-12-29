@@ -1,6 +1,6 @@
 # Getting Started
 
-Welcome to the Molley documentation. This guide will help you get started with using Molley in your projects.
+Welcome to the Molley documentation. This guide will help you get started with using Molley in your projects...
 
 ## What is Molley?
 
