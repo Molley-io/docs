@@ -82,8 +82,8 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/molley-io/docs' }
     ],
     footer: {
-      message: 'Built for solo entrepreneurs, sales teams, and product builders.',
-      copyright: 'Copyright © 2024 Molley'
+      message: 'Built for product teams; the researchers, the product managers, the builders, the sales teams, the founders, and the marketers... all in one place.',
+      copyright: `Copyright © ${new Date().getFullYear()} Molley`
     }
   }
 })
