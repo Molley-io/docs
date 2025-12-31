@@ -238,6 +238,7 @@ Track execution:
 
 ## Next Steps
 
+- [Social Outreach](/features/social-outreach) — Plan multi-platform campaigns
 - [Outreach Tools](/features/outreach-tools) — Create templates
 - [Marketing Plans](/features/marketing-plans) — Document strategy
 - [CRM](/features/crm) — Manage contacts

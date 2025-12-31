@@ -277,6 +277,7 @@ Track results:
 
 ## Next Steps
 
+- [Social Outreach](/features/social-outreach) — Plan multi-platform campaigns
 - [Outreach Ideas](/features/outreach-ideas) — Brainstorm campaigns
 - [Outreach Tools](/features/outreach-tools) — Create templates
 - [CRM](/features/crm) — Track customers

@@ -203,6 +203,7 @@ Follow regulations:
 
 ## Next Steps
 
+- [Social Outreach](/features/social-outreach) — Plan multi-platform campaigns
 - [Outreach Ideas](/features/outreach-ideas) — Plan campaigns
 - [Marketing Plans](/features/marketing-plans) — Strategy documentation
 - [CRM](/features/crm) — Manage contacts

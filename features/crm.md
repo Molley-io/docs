@@ -285,6 +285,7 @@ Export for external use:
 
 ## Next Steps
 
+- [Social Outreach](/features/social-outreach) — Plan multi-platform campaigns
 - [Outreach Tools](/features/outreach-tools) — Create templates
 - [Outreach Ideas](/features/outreach-ideas) — Plan campaigns
 - [Feedback Forms](/features/feedback-forms) — Collect feedback

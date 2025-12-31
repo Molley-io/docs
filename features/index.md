@@ -30,6 +30,7 @@ Plan outreach, manage relationships, and grow your customer base.
 
 | Feature | Description |
 |---------|-------------|
+| [Social Outreach](/features/social-outreach) | Multi-platform content planning and AI generation |
 | [Outreach Tools](/features/outreach-tools) | Templates and automation |
 | [Outreach Ideas](/features/outreach-ideas) | Campaign brainstorming with AI |
 | [Marketing Plans](/features/marketing-plans) | Strategy documentation |
