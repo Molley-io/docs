@@ -2,6 +2,12 @@
 
 Molley brings together all the tools you need to research, build, and grow your product — in one connected platform.
 
+## Core Tools
+
+| Feature | Description |
+|---------|-------------|
+| [Rich Text Editor](/features/editor) | Block-based editor with AI assistance |
+
 ## Research & Discovery
 
 Capture insights, organize knowledge, and synthesize data into actionable intelligence.

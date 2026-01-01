@@ -32,38 +32,16 @@ Create a hierarchy by nesting pages:
 
 ## The Editor
 
-Research Notes use a rich block-based editor similar to Notion.
+Research Notes use a rich block-based editor. For complete editor documentation, see the [Editor Guide](/features/editor).
 
-### Text Formatting
+Key features include:
 
-- **Bold** — `Ctrl/Cmd + B`
-- *Italic* — `Ctrl/Cmd + I`
-- ~~Strikethrough~~ — `Ctrl/Cmd + Shift + S`
-- `Code` — `Ctrl/Cmd + E`
-- [Links](/) — `Ctrl/Cmd + K`
-
-### Block Types
-
-Type `/` to see available blocks:
-
-| Block | Shortcut | Description |
-|-------|----------|-------------|
-| Heading 1 | `/h1` | Large section header |
-| Heading 2 | `/h2` | Medium section header |
-| Heading 3 | `/h3` | Small section header |
-| Bullet List | `/bullet` | Unordered list |
-| Numbered List | `/number` | Ordered list |
-| To-do | `/todo` | Checkbox list |
-| Quote | `/quote` | Block quote |
-| Code | `/code` | Code block |
-| Divider | `/divider` | Horizontal line |
-| Callout | `/callout` | Highlighted box |
-
-### Drag and Drop
-
-- Click and drag the **⋮⋮** handle to reorder blocks
-- Drag blocks between columns
-- Nest blocks by dragging to indent
+- **Text formatting** — Bold, italic, underline, strikethrough, inline code
+- **Block types** — Headings, quotes, code blocks, callouts
+- **Lists** — Bullet, numbered, and checklist (to-do)
+- **Tables** — Full table support with navigation
+- **AI assistance** — Type `/ai` for context-aware writing help
+- **Voice input** — Dictate content using speech recognition
 
 ## Page Icons
 
@@ -120,26 +98,6 @@ Use emojis as visual tags:
 - 🟢 Complete
 - ❓ Questions
 - 💡 Ideas
-
-### Link Related Content
-
-Reference other notes by:
-
-1. Type `[[` to search for pages
-2. Select the page to link
-3. The link is created inline
-
-## Keyboard Shortcuts
-
-| Action | Shortcut |
-|--------|----------|
-| New page | `Ctrl/Cmd + N` |
-| Bold | `Ctrl/Cmd + B` |
-| Italic | `Ctrl/Cmd + I` |
-| Link | `Ctrl/Cmd + K` |
-| Undo | `Ctrl/Cmd + Z` |
-| Redo | `Ctrl/Cmd + Shift + Z` |
-| Search | `Ctrl/Cmd + P` |
 
 ## Next Steps
 

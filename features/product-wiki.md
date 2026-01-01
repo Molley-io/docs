@@ -11,9 +11,22 @@ The Product Wiki serves as:
 - **Team alignment** — Single source of truth
 - **Onboarding resource** — Help new team members get up to speed
 
+## The Editor
+
+The Product Wiki uses the same rich block-based editor as Research Notes. For complete editor documentation, see the [Editor Guide](/features/editor).
+
+Key features include:
+
+- **Text formatting** — Bold, italic, underline, strikethrough, inline code
+- **Block types** — Headings, quotes, code blocks, callouts
+- **Lists** — Bullet, numbered, and checklist (to-do)
+- **Tables** — Full table support with navigation
+- **AI assistance** — Type `/ai` for context-aware writing help
+- **Voice input** — Dictate content using speech recognition
+
 ## Structure
 
-The Product Wiki uses the same Notion-style editor as Research Notes, but is specifically designed for product documentation.
+The Product Wiki is specifically designed for product documentation.
 
 ### Suggested Organization
 
@@ -132,59 +145,6 @@ When you ask Molley for help with wiki content, it knows:
 - "Create user stories for this requirement"
 - "Suggest what's missing from this documentation"
 - "Improve the clarity of this section"
-
-## Linking Content
-
-### Link to Features
-
-Reference features directly:
-
-1. Type `[[` to search
-2. Select a feature from Feature Ideas
-3. The link shows current status
-
-### Link to Research
-
-Connect documentation to research:
-
-- Link to Research Notes for context
-- Reference Knowledge Notebooks
-- Include Data Synthesis findings
-
-### Link to Requirements
-
-Show the breakdown:
-
-- Link to specific requirements
-- Display requirement status
-- Track completion
-
-## Collaboration
-
-### Comments
-
-Add comments to discuss content:
-
-1. Select text
-2. Click the comment icon
-3. Add your comment
-4. Team members are notified
-
-### Version History
-
-Track changes over time:
-
-1. Click **History** in the page menu
-2. View previous versions
-3. Restore if needed
-
-### Assignments
-
-Assign pages for review:
-
-1. Click **Assign** in the page menu
-2. Select team members
-3. They receive a notification
 
 ## Best Practices
 
