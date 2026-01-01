@@ -2,10 +2,13 @@
 
 Molley brings together all the tools you need to research, build, and grow your product — in one connected platform.
 
-## Core Tools
+## Toolbox
+
+General-purpose tools available throughout the platform.
 
 | Feature | Description |
 |---------|-------------|
+| [Molley Chat](/features/molley-chat) | AI assistant with built-in company & project context |
 | [Rich Text Editor](/features/editor) | Block-based editor with AI assistance |
 
 ## Research & Discovery

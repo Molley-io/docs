@@ -31,9 +31,16 @@ export default defineConfig({
       ],
       '/features/': [
         {
-          text: 'Research',
+          text: 'Toolbox',
           items: [
             { text: 'Overview', link: '/features/' },
+            { text: 'Molley Chat', link: '/features/molley-chat' },
+            { text: 'Rich Text Editor', link: '/features/editor' }
+          ]
+        },
+        {
+          text: 'Research',
+          items: [
             { text: 'Research Notes', link: '/features/research-notes' },
             { text: 'Knowledge Notebooks', link: '/features/knowledge-notebooks' },
             { text: 'Data Synthesis', link: '/features/data-synthesis' }
